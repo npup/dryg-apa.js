@@ -1,0 +1,32 @@
+{
+  "name": "dryg-apa.js",
+  "version": "1.0.0",
+  "description": "Check drygness of apa",
+  "main": "dist/index.js",
+  "scripts": {
+    "dist": "gulp"
+    , "test": "gulp && node ./test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/npup/dryg-apa.js.git"
+  },
+  "keywords": [
+    "dryg",
+    "apa"
+  ],
+  "author": "P. Envall <petter.envall@gmail.com> (http://petter.envall.se/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/npup/dryg-apa.js/issues"
+  },
+  "homepage": "https://github.com/npup/dryg-apa.js",
+  "devDependencies": {
+    "buster": "^0.7.14"
+  },
+  "dependencies": {
+    "gulp": "^3.8.8",
+    "gulp-rename": "^1.2.0",
+    "gulp-uglify": "^1.0.1"
+  }
+}
